@@ -1,0 +1,446 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
+
+/* Jangan Diubah */
+body {
+    font-family: "Quicksand", sans-serif !important;
+    height: 100vh;
+    margin: 0;
+}
+
+footer {
+    background: #f9f9f9;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+    margin-top: auto;
+}
+
+/* Extended Padding and Margin */
+/* Y */
+.py-6 {
+    padding: 6rem 0;
+}
+
+.py-7 {
+    padding: 7rem 0;
+}
+
+.py-8 {
+    padding: 8rem 0;
+}
+
+.py-9 {
+    padding: 9rem 0;
+}
+
+.py-10 {
+    padding: 10rem 0;
+}
+
+.my-6 {
+    margin: 6rem 0;
+}
+
+.my-7 {
+    margin: 7rem 0;
+}
+
+.my-8 {
+    margin: 8rem 0;
+}
+
+.my-9 {
+    margin: 9rem 0;
+}
+
+.my-10 {
+    margin: 10rem 0;
+}
+
+/* X */
+.px-6 {
+    padding: 0 6rem;
+}
+
+.px-7 {
+    padding: 0 7rem;
+}
+
+.px-8 {
+    padding: 0 8rem;
+}
+
+.px-9 {
+    padding: 0 9rem;
+}
+
+.px-10 {
+    padding: 0 10re0;
+}
+
+.mx-6 {
+    margin: 0 6rem;
+}
+
+.mx-7 {
+    margin: 0 7rem;
+}
+
+.mx-8 {
+    margin: 0 8rem;
+}
+
+.mx-9 {
+    margin: 0 9rem;
+}
+
+.mx-10 {
+    margin: 0 10rem;
+}
+
+/* BARU */
+/* Scroll Bar */
+::-webkit-scrollbar {
+    width: 12px;
+}
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+    background: #3eb09c;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #3aa591;
+}
+
+.btn-kretix {
+    background-color: #3eb09c !important;
+    border-radius: 30px !important;
+    color: #ffffff !important;
+    padding: 0.5rem 1.5rem !important;
+}
+
+.btn-kretix:hover {
+    background-color: #3aa591 !important;
+    box-shadow: 0 5px 7px 0 rgba(62, 176, 155, 0.2);
+}
+
+.btn-outline-kretix {
+    border: 2px solid #3eb09c !important;
+    border-radius: 30px !important;
+    color: #3eb09c !important;
+    padding: 0.5rem 1.5rem !important;
+}
+
+.btn-outline-kretix:hover {
+    background-color: #3aa591 !important;
+    box-shadow: 0 5px 7px 0 rgba(62, 176, 155, 0.2);
+    color: #ffffff !important;
+}
+
+.btn-outline-white {
+    border: 2px solid #ffffff !important;
+    border-radius: 30px !important;
+    color: #ffffff !important;
+    padding: 0.5rem 1.5rem !important;
+}
+
+.btn-outline-white:hover {
+    background-color: #ffffff !important;
+    color: #3eb09c !important;
+}
+
+.oth-btn-teal {
+    background-color: #3eb09c !important;
+    color: #ffffff !important;
+    padding: 0.5rem 1.5rem !important;
+}
+
+.oth-btn-teal:hover {
+    background-color: #3aa591 !important;
+    box-shadow: 0 5px 7px 0 rgba(62, 176, 155, 0.2);
+}
+
+.oth-btn-abu {
+    background-color: #f0f0f0 !important;
+    color: #414141 !important;
+    padding: 0.5rem 1.5rem !important;
+}
+
+.oth-btn-abu:hover {
+    background-color: #e4e4e4 !important;
+    box-shadow: 0 5px 7px 0 rgba(163, 163, 163, 0.2);
+}
+
+/*  */
+
+/* Font Color */
+.fc-teal {
+    color: #3eb09c !important;
+}
+
+.fc-white {
+    color: #ffffff !important;
+}
+
+.bd-dash {
+    border-bottom: 1px dashed #b2b2b2;
+}
+
+.bd-biasa {
+    border-bottom: 1px solid #b2b2b2;
+}
+
+.fc-dark {
+    color: #414141 !important;
+}
+
+/* Border Color */
+.bd-teal {
+    border: 2px solid #3eb09c !important;
+}
+
+.bd-abu {
+    border: 1px solid #b2b2b2 !important;
+}
+
+.bd-white {
+    border: 2px solid #ffffff !important;
+}
+
+/* Background Color */
+.bg-teal {
+    background-color: #3eb09c !important;
+}
+
+.bg-white {
+    background-color: #ffffff !important;
+}
+
+.bg-abu {
+    background-color: #f0f0f0 !important;
+}
+
+.bg-abu-teal {
+    background: linear-gradient(0deg, #3eb09c 10%, #f9f9f9 10%);
+}
+
+.bg-disabled-t {
+    background-color: #b2b2b2 !important;
+}
+
+.bg-disabled-b {
+    background-color: #dddddd !important;
+}
+
+@media only screen and (max-width: 991px) {
+    .rd-mr-ms {
+        border-radius: 20px 20px 0 0 !important;
+    }
+
+    .rd-mr-df {
+        border-radius: 0 0 0 0 !important;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .rsp {
+        text-align: center !important;
+        margin: auto 0 !important;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .rsp-2 {
+        margin-top: 20px !important;
+    }
+}
+
+/* Rounded */
+.rd {
+    border-radius: 20px !important;
+}
+
+.rd-t {
+    border-radius: 20px 20px 0 0 !important;
+}
+
+.rd-b {
+    border-radius: 0 0 20px 20px !important;
+}
+
+.rd-mr-ms {
+    border-radius: 20px 0 0 0;
+}
+
+.rd-mr-df {
+    border-radius: 0 20px 0 0;
+}
+
+.rd-dsb {
+    border-radius: 0 19px 19px 19px;
+}
+
+/* Field Input */
+input {
+    width: 100%;
+    border: 2px solid #3eb09c;
+    border-radius: 50px;
+}
+
+.field {
+    border-radius: 0;
+    border: none;
+    border-bottom: 1px solid #3eb09c;
+    margin: 5px 0;
+    padding: 10px;
+    width: 100%;
+}
+
+textarea:focus,
+input:focus {
+    outline: none;
+}
+
+span {
+    display: block;
+    overflow: hidden;
+    padding-right: 10px;
+}
+
+/* CSS tambahan sesuai konten */
+.bg-beranda {
+    background-image: url("images/bg-beranda.png");
+    background-size: cover;
+}
+
+.bg-masuk {
+    background-image: url("images/bg-masuk.png");
+    background-size: cover;
+}
+
+.bg-daftar {
+    background-image: url("images/bg-daftar.png");
+    background-size: cover;
+}
+
+.bg-lupasandi {
+    background-image: url("images/bg-lupa-sandi.png");
+    background-size: cover;
+}
+
+.circle {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    margin: 0 20px;
+}
+
+.line {
+    height: 150px;
+}
+
+.sd-header h1 {
+    text-shadow: black 0px 3px 15px;
+}
+
+.navbar-nav > .active > a {
+    color: #3eb09c;
+    font-weight: bold;
+}
+
+.field-ganti-sandi {
+    border-radius: 0;
+    border: 1px solid #c4c4c4;
+    margin: 5px 0;
+    padding: 5px;
+    width: 100%;
+}
+
+.field-ganti {
+    border-radius: 0;
+    border: none;
+    border-bottom: 1px solid #3eb09c;
+    margin: 5px 0;
+    padding: 10px;
+    width: 150%;
+}
+
+.pp {
+    position: absolute;
+    height: 100px;
+}
+
+.editpp:hover {
+    position: relative;
+    background-image: url("/images/image-logokotak.png");
+    background-size: cover;
+    width: 100%;
+    height: 100px;
+}
+
+.container-profilepic {
+    width: 100px;
+    height: 100px;
+}
+
+.photo-preview {
+    background-size: cover;
+    background-position: center;
+}
+
+.middle-profilepic {
+    background-color: rgba(255, 255, 255, 0.69);
+}
+
+.container-profilepic:hover .middle-profilepic {
+    display: flex !important;
+    cursor: pointer;
+}
+
+.logo-kereta {
+    position: absolute;
+    top: 40%;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+
+.kanan {
+    right: 0%;
+    top: 80%;
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+}
+
+.fa-cut {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+#typed {
+    display: inline !important;
+}
+.navbar-nav a:hover {
+    color: #3eb09c !important;
+}
+.preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    background-color: #fff;
+}
+
+.preloader .loading {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font: 14px arial;
+}
